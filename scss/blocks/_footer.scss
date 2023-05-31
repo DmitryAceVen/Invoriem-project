@@ -1,0 +1,33 @@
+.footer {
+  padding:162px 0 86px 0;
+}
+
+.footer__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright {
+  max-width: 1076px;
+  font-size: 20px;
+  line-height: 36px;
+  color: #636363;
+}
+.social__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 27px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  column-gap: 104px;
+}
+.social__links {
+  a {
+    font-size: 20px;
+    line-height: 36px;
+    color: #636363;
+  }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoriem</title>
+    <!--Style-->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <nav class="nav">
+            <a href="#" class="nav__logo"
+              ><svg
+                class="nav__logo-img"
+                width="176"
+                height="32"
+                viewBox="0 0 176 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M81.2725 15.0027V31.5771H85.9914V16.1375C85.9914 14.8335 87.0487 13.7762 88.3526 13.7762H93.2302V9.11719H87.1615C83.9086 9.11719 81.2725 11.7498 81.2725 15.0027Z"
+                />
+                <path
+                  d="M20.1445 8.62744C14.7454 8.62744 10.5727 12.5675 10.5727 17.4838V24.7155C10.5551 25.0926 10.3824 25.4733 10.1745 25.8081C9.63877 26.6785 8.74714 27.1719 7.72864 27.1719H7.68282C6.67489 27.1719 5.74802 26.6327 5.24758 25.7587L5.15595 25.5966C4.95507 25.2477 4.84934 24.853 4.84934 24.4512V23.697H4.85286V9.12436H0.00352423V21.4803H0V24.1587C0 25.4874 0.352423 26.7948 1.01498 27.9367L1.09251 28.0741C2.43524 30.3966 4.9304 31.8098 7.61586 31.8486C7.65463 31.8486 7.69339 31.8486 7.73216 31.8486C10.3718 31.8486 12.7683 30.5129 14.1568 28.2644C14.6044 27.5385 14.9427 26.742 15.133 25.9173C15.2564 25.3816 15.2916 24.8283 15.2916 24.2785V18.1147C15.2916 16.2045 16.215 12.9446 20.1445 12.9446C22.7524 12.9446 24.4582 14.8759 24.4582 18.1147V31.5526H29.2687V17.4838C29.2687 12.2222 25.089 8.62744 20.1445 8.62744Z"
+                />
+                <path
+                  d="M42.379 26.6046L36.4125 9.12793H31.3799L38.816 29.3464C39.3623 30.8301 40.7755 31.8169 42.3579 31.8169C43.9367 31.8169 45.3499 30.8337 45.8962 29.3535L53.3781 9.12793H48.2997L42.379 26.6046Z"
+                />
+                <path
+                  d="M66.0228 8.62744C59.369 8.62744 54.9673 13.66 54.9673 20.3138C54.9673 26.9217 59.3726 32.0001 66.0228 32.0001C72.673 32.0001 77.0783 26.9217 77.0783 20.3138C77.0783 13.6636 72.673 8.62744 66.0228 8.62744ZM66.0228 27.5948C62.4281 27.5948 59.6862 24.4935 59.6862 20.3138C59.6862 16.0882 62.4281 13.0327 66.0228 13.0327C69.6633 13.0327 72.3594 16.0882 72.3594 20.3138C72.3594 24.4935 69.6633 27.5948 66.0228 27.5948Z"
+                />
+                <path
+                  d="M2.41144 4.8141H2.45021C3.77884 4.8141 4.85726 3.73568 4.85726 2.40705C4.85726 1.07841 3.77884 0 2.45021 0H2.41144C1.08281 0 0.00439453 1.07841 0.00439453 2.40705C0.00439453 3.73568 1.08281 4.8141 2.41144 4.8141Z"
+                />
+                <path
+                  d="M99.5242 4.8141H99.563C100.892 4.8141 101.97 3.73568 101.97 2.40705C101.97 1.07841 100.892 0 99.563 0H99.5242C98.1956 0 97.1172 1.07841 97.1172 2.40705C97.1172 3.73568 98.1956 4.8141 99.5242 4.8141Z"
+                />
+                <path
+                  d="M173.061 26.8193H173.022C171.693 26.8193 170.615 27.8978 170.615 29.2264C170.615 30.555 171.693 31.6334 173.022 31.6334H173.061C174.389 31.6334 175.468 30.555 175.468 29.2264C175.468 27.8978 174.389 26.8193 173.061 26.8193Z"
+                />
+                <path
+                  d="M157.413 8.62744C154.552 8.62744 152.046 9.7411 150.312 11.5103C148.624 9.69528 146.171 8.62744 143.482 8.62744C138.083 8.62744 133.91 12.5675 133.91 17.4803V31.549H138.629V18.1147C138.629 16.2045 139.552 12.9446 143.482 12.9446C146.09 12.9446 147.796 14.8759 147.796 18.1147V31.5526H147.841H152.56H152.606V17.4838C152.606 17.4556 152.603 17.431 152.603 17.4028C152.818 15.4926 153.938 12.9446 157.413 12.9446C160.021 12.9446 161.727 14.8759 161.727 18.1147V31.5526H166.537V17.4838C166.537 12.2222 162.358 8.62744 157.413 8.62744Z"
+                />
+                <path
+                  d="M119.75 8.58154C113.294 8.58154 109.167 13.5472 109.146 20.3525H109.142V23.5454C109.142 24.3666 108.85 25.1666 108.321 25.7974C107.655 26.5904 106.679 27.045 105.643 27.0485H105.639C104.603 27.0485 103.627 26.5939 102.957 25.7974C102.425 25.1666 102.136 24.3666 102.136 23.5419V16.9798H102.132V9.11018H97.3535V23.6476H97.3606C97.3852 25.5578 98.0725 27.4115 99.3095 28.8776C100.888 30.7525 103.197 31.8238 105.643 31.8238H105.65C108.102 31.8203 110.411 30.7419 111.986 28.867C112.021 28.8247 112.053 28.7754 112.088 28.7296C113.988 30.7771 116.719 31.9507 120.021 31.9507C123.887 31.9507 127.302 30.1956 128.874 27.4573L125.28 25.2547C124.335 26.6467 122.672 27.8168 120.201 27.8168C116.606 27.8168 114.27 25.6141 113.773 21.7939H129.505C130.358 14.3789 126.897 8.58154 119.75 8.58154ZM113.815 18.2908C114.4 14.8758 116.511 12.6732 119.792 12.6732C123.479 12.6732 125.23 15.5489 125.23 18.2908H113.815Z"/></svg></a>
+            <ul class="nav__list">
+              <li><a href="#" class="link">About us</a></li>
+              <li><a href="#" class="btn">Let’s Talk</a></li>
+            </ul>
+            <button class="nav-btn" id="openMobileNav">
+              <img src="./img/nav-mobile/nav-btn.svg" alt="" />
+            </button>
+          </nav>
+        </div>
+        <div class="header__contant">
+          <h1 class="header__title">We build dreams, not just walls</h1>
+          <p class="header__text">
+            Fulfill your international property developments with us
+          </p>
+          <a href="#" class="btn header__contanant-btn">Let’s Talk</a>
+        </div>
+        <div class="header__contant-mobile">
+          <img
+            class="header__contant__logo-mobile"
+            src="./img/nav-mobile/logo.svg"
+            alt=""
+          />
+          <div class="header__contant-mobile-text">
+            <p>We fulfill international property developments</p>
+          </div>
+        </div>
+        <a class="arrow-down" href="#main"
+          ><img src="./img/header/arrow-down.svg" alt="scroll down"
+        /></a>
+      </div>
+    </header>
+    <main id="main">
+      <section class="case-studies">
+        <div class="container">
+          <div class="case-studies__title">
+            <h2 class="title">Case Studies</h2>
+          </div>
+          <div class="case-studies__text">
+            <p class="text">
+              We deliver a unique and truly bespoke approach to delivering
+              international developments to market, with over 10 years success
+              around the world.
+            </p>
+          </div>
+        </div>
+        <div class="container-right">
+          <div class="slider">
+            <div class="owl-carousel owl-theme">
+              <div class="slide__item slide">
+                <h3 class="slide__title">France</h3>
+                <img
+                  class="slide__img"
+                  src="./img/slider/slider-01.jpg"
+                  alt="01"
+                />
+              </div>
+              <div class="slide__item slide">
+                <h3 class="slide__title">Moroco</h3>
+                <img
+                  class="slide__img"
+                  src="./img/slider/slider-02.jpg"
+                  alt="02"
+                />
+              </div>
+              <div class="slide__item slide">
+                <h3 class="slide__title">Portugal</h3>
+                <img
+                  class="slide__img"
+                  src="./img/slider/slider-03.jpg"
+                  alt="03"
+                />
+              </div>
+              <div class="slide__item slide">
+                <h3 class="slide__title">London</h3>
+                <img
+                  class="slide__img"
+                  src="./img/slider/slider-04.jpg"
+                  alt="04"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__title">
+            <h2 class="title">We are Invoriem</h2>
+          </div>
+          <div class="about__text">
+            <p class="text">We fulfill international property developments</p>
+          </div>
+          <div class="video__contant">
+            <div class="video video-overlay">
+              <button class="btn-play" id="video-btn">
+                <img src="./img/video/play-btn.svg" alt="play" />
+              </button>
+              <picture class="video__picture">
+                <source media="(max-width: 600px)" srcset="./img/video/video-picture-mobile.jpg">
+                <img  src="./img/video/video-picture.jpg" alt=""/>
+              </picture>
+              <video class="video__object" id="video-file" loop>
+                <source src="./img/video/video.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="copyright">Copyright © 2020 Invoriem</div>
+          <div class="social">
+            <div class="social__links">
+              <a href="info@invoriem.com">info@invoriem.com</a>
+            </div>
+            <ul class="social__list">
+              <li class="social__links">
+                <a href="#"
+                  ><img src="./img/social/instagram.svg" alt="link"
+                /></a>
+              </li>
+              <li class="social__links">
+                <a href="#"
+                  ><img src="./img/social/facebook.svg" alt="link"
+                /></a>
+              </li>
+              <li class="social__links">
+                <a href="#"
+                  ><img src="./img/social/twitter.svg" alt="link"
+                /></a>
+              </li>
+              <li class="social__links">
+                <a href="#"
+                  ><img src="./img/social/linkedIn.svg" alt="link"
+                /></a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+
+        <section class="mobile-nav none" id="mobilNav">
+        <div class="mobile-nav__header">
+          <a href="#">
+            <img class="mobile-nav__logo" src="./img/header/logo.svg" alt="logo">
+          </a>
+          <button id="closeNav">
+            <img src="./img/nav-mobile/nav-btn.svg" alt="">
+          </button>
+      </div>
+      <nav class="mobile-list">
+        <ul>
+          <li><a href="#">Hello</a></li>
+          <li><a href="#">Bonjour</a></li>
+          <li><a href="#">Olá</a></li>
+          <li><a href="#">Marhabaan</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-contacts">
+        <h4 class="mobile-contacts__title">Contact us</h4>
+        <a href="mailto:info@invoriem.com" class="mobile-contacts__email">info@invoriem.com</a>
+        <a href="tel:+55512345258" class="mobile-contacts__phone">+555 1234 52 58</a>
+        <p class="mobile-contacts__address">3517 W. Gray St. <br> Utica, Pennsylvania <br> 57867</p>
+      </div>
+      <footer class="mobile-footer">
+        <div class="social__links">
+          <a href="info@invoriem.com">info@invoriem.com</a>
+        </div>
+        <div class="mobile-social">  
+          <ul class="mobile-social__list">
+            <li class="mobile-social__links">
+              <a href="#"><img src="./img/social/instagram.svg" alt="link"/></a>
+            </li>
+            <li class="mobile-social__links">
+              <a href="#"><img src="./img/social/facebook.svg" alt="link"/></a>
+            </li>
+            <li class="mobile-social__links">
+              <a href="#"><img src="./img/social/twitter.svg" alt="link"/></a>
+            </li>
+            <li class="mobile-social__links">
+              <a href="#"><img src="./img/social/linkedIn.svg" alt="link"/></a>
+            </li>
+          </ul>
+          
+        <div class="mobile-footer-copyright">Copyright © 2020 Invoriem</div>
+        
+      </footer>
+      </div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./scss/js/main.js"></script>
+  </body>
+</html>
